@@ -1,13 +1,15 @@
 # React Documentation Reference Guide 
 ## React
    > *Declarative Programming -  "what is the desired outcome"*
-- ##  Props
-    -  a portion of state passed from parent to child
+
 - ##  State
     - state is anything you are keeping track of
     - components can have its own state
     - React re-renders the entire app, every time state changes
-
+    - you want to hold up your state high as much as possible so that it will be passed on to all children 
+        - easier to test and re-use components
+- ##  Props
+    -  a portion of state passed from parent to child
     - when referencing *This* we are referring to that component - every component is basically a large js object
 - ##  JSX
     (jJavaScript XML Syntax - JSX is compiled into pure javascript)
@@ -20,6 +22,8 @@
 ## Saga 
 ---
 ## Webpack
+
+
 ---
 ## DUCKS
 ---
