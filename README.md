@@ -22,7 +22,9 @@
 ## Saga 
 ---
 ## Webpack
-
+install webpack globally:
+        
+   >npm install -g webpack
 
 ---
 ## DUCKS
